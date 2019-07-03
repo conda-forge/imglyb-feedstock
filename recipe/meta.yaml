@@ -10,7 +10,7 @@ source:
   sha256: 99f492903a9abe03056867d3e098917bdb1baf3ddf2fa56b6fa243d93c219ccf
 
 build:
-  number: 1000
+  number: 1001
   script: "{{ PYTHON }} -m pip install . -vvv  --no-deps"
   skip: True  # [py2k]
 
@@ -27,6 +27,7 @@ requirements:
     - pyjnius
     - scyjava
     - maven
+    - openjdk =8
 
 test:
   imports:
