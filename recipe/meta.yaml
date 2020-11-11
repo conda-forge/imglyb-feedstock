@@ -10,19 +10,19 @@ source:
   sha256: dd86bad4c17390bdc2f11c85d4945dc73a3436d4bc2cbeefd95ed5db010f2961
 
 build:
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . -vvv  --no-deps"
-  skip: True  # [py2k]
+  noarch: python
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - numpy
     - pyjnius
     - scyjava
   run:
-    - python
+    - python >=3.6
     - numpy
     - pyjnius
     - scyjava
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/imglib/imglyb/
-  license: PUBLIC-DOMAIN
+  license: Unlicense
   license_family: PUBLIC-DOMAIN
   summary: 'A bridge between Numpy and imglib2'
   doc_url: https://github.com/imglib/imglyb/
@@ -44,5 +44,6 @@ about:
 extra:
   recipe-maintainers:
     - ctrueden
+    - elevans
+    - hinerm
     - hanslovsky
-    - hadim
