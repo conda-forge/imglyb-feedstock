@@ -35,8 +35,8 @@ test:
 
 about:
   home: https://github.com/imglib/imglyb
-  license: Unlicense
-  license_family: PUBLIC-DOMAIN
+  license: BSD-2-Clause
+  license_file: LICENSE.txt
   summary: A bridge between Numpy and imglib2
   doc_url: https://github.com/imglib/imglyb
   dev_url: https://github.com/imglib/imglyb
