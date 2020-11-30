@@ -19,12 +19,12 @@ requirements:
     - python >=3.6
     - pip
     - numpy
-    - pyjnius
+    - jpype1
     - scyjava
   run:
     - python >=3.6
     - numpy
-    - pyjnius
+    - jpype1
     - scyjava
     - maven
 
