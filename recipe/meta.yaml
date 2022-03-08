@@ -1,5 +1,5 @@
 {% set name = "imglyb" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cdc3093a164b166c8cf3a1a74d72a32d7f0f6a640c5731ea48f6f741e92fc027
+  sha256: ace14759bb4201e4b1b93ff4c4aa2c90e87e0bb22095160e205792be89fee929
 
 build:
   number: 0
