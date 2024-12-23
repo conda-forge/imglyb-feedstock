@@ -21,8 +21,9 @@ requirements:
     - numpy
     - jpype1 >=1.3.0
     - scyjava >=1.3.0
+    - setuptools >=61.2
   run:
-    - python >={{ python_min }}
+    - python >=3.8
     - numpy
     - jpype1 >=1.3.0
     - scyjava >=1.3.0
